@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center" >
+
+    <TextView android:id="@+id/cityText"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="New York"
+              android:gravity="center_horizontal"
+              android:paddingBottom="15dp"
+              android:textColor="#ffffff"/>
+
+    <TextView android:id="@+id/degreeText"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="80˚"
+              android:layout_gravity="top|center_horizontal"
+
+              android:gravity="center_horizontal"
+              android:paddingBottom="15dp"
+              android:textSize="40dp"
+              android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/forecastText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Clear Skies"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/hiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hi 85 ˚"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/lowText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Low 78 ˚"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

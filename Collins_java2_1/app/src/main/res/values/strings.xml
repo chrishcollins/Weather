@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather</string>
+
+    <string name="searchButton">Search</string>
+
+    <string name="defaultCity">New York</string>
+    <string name="enterZip">Enter Zip Code</string>
+
+
+</resources>
